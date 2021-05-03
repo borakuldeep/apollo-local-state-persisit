@@ -1,6 +1,7 @@
-# apollo-local-state
+# apollo-local-state-persist
 
-> Summary: Using Apollo Client 3's **Reactive Variables API**, we can store the entire application state locally (and optionally persist it using local storage).
+> Summary: Using Apollo Client 3's **Reactive Variables API**, we can store the entire application state locally (and optionally persist it using local storage/iDB).
+> idb-keyval is used to persist todos (https://github.com/jakearchibald/idb-keyval)
 
 The key components that make this work are:
 
@@ -14,5 +15,5 @@ To start the project, run the following commands:
 ```
 npm install && npm run start
 ```
-
+Original Repo: https://github.com/apollographql/ac3-state-management-examples/tree/master/apollo-local-state
 The app should start at `http://localhost:3000/`.
